@@ -1,0 +1,122 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+* {
+box-sizing: border-box;
+}
+
+body {
+	line-height: 1.6;
+    color: #3a3a3a;
+}
+/* ------Navigation------*/
+.title {
+margin: 0;
+font-size: 1.25em;
+}
+
+.title,
+.main-nav li
+{
+background:grey;
+margin-right: 10px;
+margin-top: 6px;
+margin-bottom: 6px;
+}
+
+
+a  { 
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+.main-nav a:hover {
+    color:blue;
+}
+.title a,
+.main-nav a {
+    padding: 10px 15px;
+    display: block;
+
+}
+
+
+
+/* ---- Layout Containers ---- */
+
+.top10 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.container {
+padding-left: 1em;
+padding-right: 1em;
+width: 90%;
+margin: 0 auto;
+}
+.main-header {
+    text-align: center;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    background: #3acec2;
+    margin-bottom: 30px;
+}
+
+.main-footer {
+	padding: 2em 0;
+    background: #d9e4ea;
+    text-align: center;
+}
+.newyorkimg {
+    max-width: 250px;
+}
+.albertaimg {
+max-width: 350px;
+margin-bottom: 20px;
+}
+/* ---- Page Elements ---- */
+
+/* ================================= 
+  Media Queries
+==================================== */
+@media (min-width:769px) {
+.container {
+    width: 80%; 
+    margin: 0 auto;
+}
+.title,
+.main-nav,
+.main-nav li {
+    display: inline-block;
+}
+.title {
+float: left;
+}
+.main-nav {
+float: right;
+}
+
+.col {
+display: inline-block;
+margin-right: -2px;
+vertical-align: top;
+padding-left: 1em;
+padding-right: 1em;
+}
+.first {
+width: 60%;
+}
+.second {
+width: 40%;
+}
+.clearfix {
+content: "";
+display:table;
+clear: both;
+}
+}
