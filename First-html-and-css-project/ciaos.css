@@ -1,0 +1,287 @@
+* {
+    box-sizing: border-box;
+}
+
+    /* navigation and logo */
+    .navigation {
+        width:100%;
+        height: 80px;
+        padding-bottom: 30px;
+        padding-top: 0px;
+        border-style: solid;
+        border-color: lightgray;
+    }
+    #navbar {
+        width: 1000px;
+        height: 70px;
+        border: 1px red;
+        float: right;
+        margin-right: 10px;
+    
+        
+    }
+    #navbar li {
+        width: 200px;
+        list-style: none;
+        float: left ;
+        
+
+    }
+
+    li a {
+        display: block;
+        color: green;
+        line-height: 80px;
+        text-align: center;
+        font-family: cursive;
+        font-size: 20px;
+        text-decoration: none;
+        
+        
+    }
+    li a:hover,
+    li a:focus {
+        background: #ffdb58;
+        color: #8b2300;
+        border-style: double;
+        
+    }
+
+    #logo {
+        float: left;
+        margin-left: 20px;
+        margin-right: 15px; 
+        
+    }
+
+    /*size of the logo image*/
+    #logo img {
+        max-width: 90px;
+        margin-top: 15px;
+        margin-left: 50px;
+        
+    }
+
+    /* Header  */
+    .main-header-title {
+        background-color: black;
+        text-align: center;
+        height: 500px;
+        background-image: url(imageofciaopizza1.JPG);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+    }
+
+    .main-header p {
+    color: white;
+    font-size: 20px;
+    
+    }
+
+    h1 {
+        padding-top: 150px;
+        color: white;
+        font-size: 50px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        
+    }
+
+    .box {
+        text-align: center;
+        color: white;
+        border-color: white;
+        border-style: solid;
+        border-width: 2px 2px 2px 2px;
+        font-size: 20px;
+        margin-top: 30px;
+        margin-left: 560px;
+        margin-right: 560px;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+        
+    }
+
+    .box:hover{
+        background-color: black;
+    }
+
+   .box a {
+        text-decoration: none;
+        color: white;
+    }
+
+    /* Ending of Header */
+
+
+        .new-content-begins {
+            border-top: solid 5px lightgray;
+            
+        }
+
+
+    .navigation-title{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding-top:10px;
+        padding-bottom: 10px;
+        letter-spacing: 0.01em;
+        color:green;
+        font-weight: bold;
+        text-align: center;
+        font-size: 30px;
+        }
+        
+        .our_story {
+            width: 50%;
+            border-style: double;
+            border-radius: 15px;
+            border-spacing: 15px;
+            padding: 10px 10px 10px 20px;
+            letter-spacing: 0.2em;
+            float: left;
+            margin: 20px 20px 50px 20px;
+            text-align: center;
+            font-size: 17px;
+            
+        }
+        .image_of_founder{
+            float: right;
+            padding: 1px 10px 10px 10px;
+            margin: 5px 60px 60px 20px;
+        }
+        .group:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .pizza {
+            border-style: double;
+            font-size: 17px;
+            text-align: center;
+            width: 20%;
+            padding: 0 8px;
+            float: left;
+            margin: 20px 20px 20px 20px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        
+        .pasta {
+            border-style: double;
+            font-size: 17px;
+            text-align: center;
+            width: 20%;
+            padding: 0 8px;
+           float: left;
+           margin: 20px 20px 20px 20px;
+           
+        }
+        .salad {
+            border-style: double;
+            font-size: 17px;
+            text-align: center;
+            width: 20%;
+            padding: 0 8px;
+            float: left;
+            margin: 20px 20px 20px 20px;
+            
+
+        }
+
+        .dolce {
+            border-style: double;
+            font-size: 17px;
+            text-align: center;
+            width: 20%;
+            padding: 0 8px;
+            float: left;
+            margin: 20px 20px 20px 20px;
+        }
+        .group2:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    .menu_side_note {
+     text-align: center;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-style: oblique;
+    }
+
+
+
+
+
+
+
+
+
+    .last-section {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding-top:30px;
+        padding-bottom: 30px;
+        letter-spacing: 0.01em;
+        color:green;
+        font-weight: bold;
+        text-align: center; 
+        
+    }
+
+    
+.yelp_logo {
+    font-size: 25px;
+    text-align: center;
+    width: 30%;
+    padding: 0 8px;
+    float: left;
+    margin: 20px 20px 20px 20px;
+}
+
+.bestofboston {
+    font-size: 25px;
+    text-align: center;
+    width: 30%;
+    padding: 0 8px;
+    float: left;
+    margin: 20px 20px 20px 20px;
+}
+
+.foodnetworklogo {
+    
+    font-size: 25px;
+    text-align: center;
+    width:  20%;
+    padding: 0 8px;
+    float: left;
+    margin: 20px 20px 20px 20px;
+    
+}
+
+.group3:after
+{
+    content: "";
+    display: table;
+    clear: both;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .footer {
+            padding-top: 5px;
+            padding-bottom: 5px;
+            border-top: solid 2px black;
+            border-bottom:solid 10px black;
+            text-align: center;
+    }
